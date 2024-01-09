@@ -1,33 +1,310 @@
+
+   
+
 {
-  "projects": [
+  "book": [
     {
-      "id": 1,
-      "title": "Module 2 Project",
-      "description": "Module 2 project - Integrate a React app with backend.",
-      "userId": 1
-    },
-    {
-      "id": 2,
-      "title": "Module 3 Project",
-      "description": "Create a full-stack application using MERN stack.",
-      "userId": 1
-    }
+     "id":1,
+      "price": 10.50,
+      "rating":5,
+      "title": "Atomic Habits:Proven Way To Build Good Habits",
+      "author": "James Clear",
+      "reviews": "69,548",
+      "image": "atomic-habits.jpg",
+      "printLength": 320,
+      "language": "English",
+     "PublicationDate": "16 April 2018",
+      "inStock": true
+  },
+  {
+      "id":2,
+     "price": 14,
+      "rating":5,
+      "title": "Confess",
+      "author": "Colleen Hoover",
+     "reviews": "3,980",
+      "image": "confess.jpg",
+      "printLength": 410,
+     "language": "English",
+      "PublicationDate": "1 March 2015",
+      "inStock": true
+  },
+  {
+      "id":3,
+      "price": 9.05,
+     "rating":5,
+      "title": "The Trouble With Hating You",
+      "author": "Sajni Patel",
+      "reviews": "235",
+      "image": "the-trouble-with-hating-you.jpg",
+     "printLength": 352,
+      "language": "English",
+     "PublicationDate": "1 June 2019",
+      "inStock": true
+  },
+  {
+      "id":4,
+     "price": 16.45,
+      "rating":4.5,
+      "title": "Hopeless",
+      "author": "Colleen Hoover",
+      "reviews": "1,587",
+      "image": "hopeless.jpg",
+      "printLength": 416,
+      "language": "English",
+      "PublicationDate": "8 October 2012",
+      "inStock": true
+  },
+  {
+      "id":5,
+      "price": 8,
+      "rating":4,
+      "title": "Rich Dad Poor Dad",
+     "author": "Robert T.Kiyosaki",
+      "reviews": "8,661",
+      "image": "rich-dad-poor-dad.jpg",
+      "printLength": 336,
+      "language": "English",
+      "PublicationDate": "27 April 2017",
+      "inStock": true
+  },
+  {
+      "id":6,
+      "price":21,
+      "rating":3.5,
+      "title": "One True Loves",
+      "author": "Taylor Jenkins Reid",
+      "reviews": "2,421",
+      "image": "one-true-love.jpg",
+      "printLength": 342,
+      "language": "English",
+      "PublicationDate": "17 July 2016",
+      "inStock": true
+  },
+  {
+      "id":7,
+     "price":11.05,
+      "rating":4.5,
+      "title": "Think And Grow Rich",
+      "author": "Napolen Hill",
+      "reviews": "57,521",
+     "image": "think-and-grow-rich.jpg",
+      "printLength": 320,
+      "language": "English",
+      "PublicationDate": "1 September 2005",
+      "inStock": true
+  },
+  {
+      "id":8,
+      "price": 7.05,
+      "rating":4.5,
+      "title": "Never Split The Difference",
+      "author": "Chris Voss",
+      "reviews": "17,980",
+      "image": "never-split-the-difference.jpg",
+      "printLength": 288,
+      "language": "English",
+      "PublicationDate": "23 March 2017",
+      "inStock": true
+  },
+  {
+      "id":9,
+      "price": 12.58,
+      "rating":5,
+      "title": "Good Vibes, Good Life",
+      "author": "Vex King",
+      "reviews": "22,252",
+      "image": "it-ends-with-us.jpg",
+      "printLength": 325,
+      "language": "English",
+      "PublicationDate": "4 December 2018",
+      "inStock": true 
+  },
+  {
+      "id":10,
+      "price": 5.98,
+      "rating":4.5,
+      "title": "Beginning Drawing Atelier",
+     "author": "Juliette Aristides",
+      "reviews": "661",
+      "image": "beginning.jpg",
+      "printLength": 128,
+      "language": "English",
+      "PublicationDate": "16 April 2018",
+      "inStock": false
+  }
   ],
-  "tasks": [
+  "cartInfo": [
     {
       "id": 1,
-      "projectId": 1,
-      "description": "Use Vite to create a basic React app"
+      "bookId": 8,
+      "title": "Never Split The Difference",
+      "image": "never-split-the-difference.jpg",
+        "price": 7.05,
+        "quantity": 2,
+        "author": "Chris Voss"
     },
     {
       "id": 2,
-      "projectId": 1,
-      "description": "Install React Router and setup routes"
+      "bookId": 5,
+      "title": "Rich Dad Poor Dad",
+        "image": "rich-dad-poor-dad.jpg",
+        "price": 8,
+        "quantity": 3,
+        "author": "Robert T.Kiyosaki"
+    }
+   
+  ],
+  "authors": [
+    {
+        "id": 1,
+        "name": "Nizar Qabbani",
+        "image": "/authors/nizar.jpg"
     },
     {
-      "id": 3,
-      "projectId": 2,
-      "description": "Create a form with 5 input fields"
+        "id": 2,
+        "name": "Mahmoud Darwish",
+        "image": "/authors/darwish.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Tony Robbins",
+        "image": "/authors/tony.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Elif Shafak",
+        "image": "/authors/shafak.jpg"
+    },
+    {
+        "id":5,
+        "name": "Brian Tracy",
+        "image": "/authors/brain.jpg"
+    },
+    {
+        "id":6,
+        "name": "Nassim Nicholas Taleb",
+        "image": "/authors/nassim.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Khalil Gibran",
+        "image": "/authors/khalil.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Debbie Ford",
+        "image": "/authors/ford.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Paulo Coelho",
+        "image": "/authors/paulo.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Wayne Dyer",
+        "image": "/authors/wayne.jpg"
+    },
+    {
+        "id":11,
+        "name": "Albert Camus",
+        "image": "/authors/albert.jpg"
+    },
+    {
+        "id":12,
+        "name": "George Orwell",
+        "image": "/authors/george.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Robert Kiyosaki",
+        "image": "/authors/kiyosaki.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Warren Buffett",
+        "image": "/authors/buffett.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Ernest Hemingway",
+        "image": "/authors/eh.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Mark Twain",
+        "image": "/authors/mark.jpg"
+    },
+    {
+        "id":17,
+        "name": "Xavier Crement",
+        "image": "/authors/crement.jpg"
+    },
+    {
+        "id":18,
+        "name": "Rolf Dobelli",
+        "image": "/authors/rolf.jpg"
+    },
+    {
+        "id": 19,
+        "name": "George Samuel Clason",
+        "image": "/authors/clason.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Phil Knight",
+        "image": "/authors/phil.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Oscar Wilde",
+        "image": "/authors/oscar.jpg"
+    },
+    {
+        "id": 22,
+        "name": "James Clear",
+        "image": "/authors/james.jpg"
+    },
+    {
+        "id":23,
+        "name": "Colleen Hoover",
+        "image": "/authors/hoover.jpg"
+    },
+    {
+        "id":24,
+        "name": "Sajni Patel",
+        "image": "/authors/patel.jpg"
+    },
+    {
+        "id":25,
+        "name": "Taylor Jenkins Reid",
+        "image": "/authors/reid.jpg"
+    },
+    {
+        "id":26,
+        "name": "Napolen Hill",
+        "image": "/authors/hill.jpg"
+    },
+    {
+        "id":27,
+        "name": "Chris Voss",
+        "image": "/authors/voss.jpg"
+    },
+    {
+        "id":28,
+        "name": "Vex King",
+        "image": "/authors/king.jpg"
+    },
+    {
+        "id":29,
+        "name": "Juliette Aristides",
+        "image":"/authors/j.jpg"
+    },
+    {
+        "id":30,
+        "name":"Leo Tolstoy",
+        "image":"/authors/leo.jpg"
     }
-  ]
+ ]
 }
